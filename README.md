@@ -23,7 +23,7 @@ The goal was to digitise the manual record-keeping system for the Queen's Medica
 <br>**Parking Permits:** Automated fee calculation logic (Monthly vs. Yearly) with status tracking.
 
 ### For Administrators
-<br>**Security Auditing:** A custom-built `audit_log` system that tracks *every* INSERT/UPDATE action (Who, What, When) for accountability.
+**Security Auditing:** A custom-built `audit_log` system that tracks *every* INSERT/UPDATE action (Who, What, When) for accountability.
 <br>**Role-Based Access Control (RBAC):** Hardened login system protecting admin routes from unauthorized access.
 <br>**Staff Management:** approve parking permits and onboard new consultants.
 
