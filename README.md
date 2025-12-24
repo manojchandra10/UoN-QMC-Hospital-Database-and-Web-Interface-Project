@@ -33,5 +33,5 @@ To test the Role-Based Access Control, please use the following accounts:
    - Place all PHP, CSS, and asset files in your web server's public folder.
    - Open 'index.php' in your browser to begin.
      ACCESS URLs:
-     Application Login:   http://localhost/cw/index.php
+     Application Login:   http://localhost/cw/index.php <br>
      Database Management: http://localhost:8081/  (phpMyAdmin)
