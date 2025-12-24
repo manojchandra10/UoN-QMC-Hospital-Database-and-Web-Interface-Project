@@ -1,0 +1,218 @@
+body {
+    font-family: "Frutiger", Arial, Helvetica, sans-serif;
+    /* font-family: hmm..lets try adding font-awesome from QMC website later; */
+    background-color: #f0f4f5;
+    margin: 0;
+    padding: 0;
+    color: #212b32;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+    
+
+/* NAVBAR */
+header {
+    /* background-color: rgb(248,249,250); */
+    background-color: #005eb8;
+    color: white;
+    padding: 0 40px;
+    height: 80px;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.logo-box {
+    background-color: white;
+    color: #005eb8;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -1px;
+    margin-right: 15px;
+}
+
+/* nav, .nav-links {
+    display: flex;
+} */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    height: 100%;  
+
+}
+
+a.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;  */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;      
+    padding: 0 20px;    
+    border-bottom: 4px solid transparent; 
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+a.nav-item:hover {
+    background-color: #ffeb3b; 
+    color: black;              
+    border-bottom: 4px solid black; 
+    text-decoration: none;
+}
+
+a.nav-btn {
+    background-color: white;
+    color: #005eb8;
+    font-weight: bold;
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;   
+    margin-left: 20px;    
+    font-size: 16px;
+    height: auto;         
+    line-height: normal;
+}
+
+a.nav-btn:hover {
+    background-color: #e6e6e6; 
+    color: #003087;
+    text-decoration: none;
+}
+
+.nav-links a.btn-logout:hover {
+    background-color: #fc1437 !important; 
+    color: white !important;
+    text-decoration: none;
+    /* border: 1px solid #002e5a;  */
+}
+.nav-links a.btn-login:hover {
+    background-color: #002e5a !important; 
+    color: white !important;
+    text-decoration: none;
+    /* border: 1px solid #002e5a;  */
+}
+/* login form */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* 
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+} */
+
+/* dashboard */
+
+.dashboard-mode {
+    display: block;
+    width: 90%;
+    /*  */
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+/* .dashboard-container{
+    style="display:flex; 
+    flex-direction:column; 
+    align-items:center;
+    justify-content: center;
+    background: white;
+} */
+
+
+.login-card {
+    background: white;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: left;
+}
+
+/* form input */
+input[type=text], input[type=password], select, input[type=number] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 2px solid #4c6272;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #007f3b;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #005a2b;
+}
+
+input[type=submit]:hover {
+    background-color: #00662f;
+}
+
+footer {
+    background-color: #d8dde0;
+    color: #212b32;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    border-top: 4px solid #005eb8;
+}
