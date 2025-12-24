@@ -6,7 +6,7 @@
 
 The goal was to digitise the manual record-keeping system for the Queen's Medical Centre (Nottingham). It replaces paper records with a secure web portal that handles patient admissions, clinical testing, and staff logistics.
 
-**Key constraints:** Built using **Raw PHP** (no frameworks like Laravel) to show core understanding of server-side logic, session management, and database normalisation.
+**Key constraints:** Built using **PHP** (no frameworks like Laravel) to show core understanding of server-side logic, session management, and database normalisation.
 
 ## Tech Stack
 **Backend:** PHP 8.2 (Procedural style)<br>
