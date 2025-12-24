@@ -33,4 +33,4 @@ The goal was to digitise the manual record-keeping system for the Queen's Medica
 | Role | Username | Password |
 | :--- | :--- | :--- |
 | **Admin** | `jelina` | `iron99` |
-| **Doctor** | `jaslyn` | `mjdrmuk25` |
+| **Doctor** | `jaslyn` | `mjdrmuk10` |
