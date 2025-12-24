@@ -1,37 +1,36 @@
-# Coursework Project: UoN QMC Hospital Database + web interface project
+# Queen's Medical Centre (QMC) - Staff Portal
 
-## TESTING CREDENTIALS (LOGIN DETAILS):
+**Coursework Project** | **PHP & MySQL** 
 
-To test the Role-Based Access Control, please use the following accounts:
-### 1. ADMINISTRATOR ACCOUNT
-   Username: jelina
-   Password: iron99
-   This gives access to: Manage Parking, Add Doctors, Audit Trail, New Patient Registration.
+##  This is a full-stack hospital management system developed as part of my coursework for **COMP4039** Module at UoN. 
 
-### 2. DOCTORS ACCOUNT
-   Username: mceards
-   Password: lord456
-   Username: moorland
-   Password: buzz48
-   This gives access to: Patient Search, Admissions, Prescriptions, Request Parking Permit.
+The goal was to digitise the manual record-keeping system for the Queen's Medical Centre (Nottingham). It replaces paper records with a secure web portal that handles patient admissions, clinical testing, and staff logistics.
 
-## INSTALLATION INSTRUCTIONS:
+**Key constraints:** Built using **Raw PHP** (no frameworks like Laravel) to show core understanding of server-side logic, session management, and database normalisation.
 
-### 1. Database Setup:
-   - Import the provided 'hospital.sql' file into your MySQL/MariaDB server.
-   - The database should be named 'hospital'.
+## Tech Stack
+**Backend:** PHP 8.2 (Procedural style)<br>
+**Database:** MariaDB / MySQL
+<br>**Frontend:** HTML5, CSS3
+<br>**DevOps:** Docker & Docker Compose
 
-### 2. Configuration:
-   - Check 'db.inc.php' to ensure the database hostname, username, and 
-     password match your local environment.
-   - Current settings:
-     Host: mariadb
-     User: root
-     Pass: rootpwd
+## Key Features
 
-### 3. Deployment:
-   - Place all PHP, CSS, and asset files in your web server's public folder.
-   - Open 'index.php' in your browser to begin.<br>
-     ACCESS URLs:<br>
-     Application Login:   http://localhost/cw/index.php <br>
-     Database Management: http://localhost:8081/  (phpMyAdmin)
+### For Medical Staff (Doctors)
+**Patient Dashboard:** Search patients by NHS Number or Name.
+<br>**Admissions:** Real-time ward allocation logic (tracking beds and admission history).
+<br>**Prescriptions:** Dynamic form to prescribe tests; auto-creates new test types if they don't exist in the DB.
+<br>**Parking Permits:** Automated fee calculation logic (Monthly vs. Yearly) with status tracking.
+
+### For Administrators
+<br>**Security Auditing:** A custom-built `audit_log` system that tracks *every* INSERT/UPDATE action (Who, What, When) for accountability.
+<br>**Role-Based Access Control (RBAC):** Hardened login system protecting admin routes from unauthorized access.
+<br>**Staff Management:** approve parking permits and onboard new consultants.
+
+## Login Credentials
+ The database comes pre-seeded with these users for testing:
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **Admin** | `jelina` | `iron99` |
+| **Doctor** | `mceards` | `lord456` |
