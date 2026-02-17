@@ -2,6 +2,10 @@
 
 **Coursework Project** | **PHP & MySQL** 
 
+## Project Achievement
+* **Grade Awarded:** Distinction (70%)
+* **Instructor Feedback:** *"Excellent UI, UX and design. Patient search is very smooth and filters at various levels... Admin functions work perfectly. In particular, the audit trail looks very good."*
+
 ##  This is a full-stack hospital management system developed as part of my coursework for **COMP4039** Module at UoN. 
 
 The goal was to digitise the manual record-keeping system for the Queen's Medical Centre (Nottingham). It replaces paper records with a secure web portal that handles patient admissions, clinical testing, and staff logistics.
@@ -13,10 +17,6 @@ The goal was to digitise the manual record-keeping system for the Queen's Medica
 **Database:** MariaDB / MySQL
 <br>**Frontend:** HTML5, CSS3
 <br>**DevOps:** Docker & Docker Compose
-
-## 🏆 Project Achievement
-* **Grade Awarded:** Distinction (70%)
-* **Instructor Feedback:** *"Excellent UI, UX and design. Patient search is very smooth and filters at various levels... Admin functions work perfectly. In particular, the audit trail looks very good."*
 
 ## Key Features
 
