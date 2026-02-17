@@ -14,6 +14,10 @@ The goal was to digitise the manual record-keeping system for the Queen's Medica
 <br>**Frontend:** HTML5, CSS3
 <br>**DevOps:** Docker & Docker Compose
 
+## 🏆 Project Achievement
+* **Grade Awarded:** Distinction (70%)
+* **Instructor Feedback:** *"Excellent UI, UX and design. Patient search is very smooth and filters at various levels... Admin functions work perfectly. In particular, the audit trail looks very good."*
+
 ## Key Features
 
 ### For Medical Staff (Doctors)
