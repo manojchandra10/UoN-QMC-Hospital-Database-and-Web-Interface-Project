@@ -3,7 +3,7 @@
 **Coursework Project** | **PHP & MySQL** 
 
 ## Project Achievement
-* **Grade Awarded:** Distinction (70%)
+* **Grade Awarded:** Distinction
 * **Instructor Feedback:** *"Excellent UI, UX and design. Patient search is very smooth and filters at various levels... Admin functions work perfectly. In particular, the audit trail looks very good."*
 
 ##  This is a full-stack hospital management system developed as part of my coursework for **COMP4039** Module at UoN. 
